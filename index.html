@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ahorcado</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Juego del ahorcado</h1>
+
+	<div id="botoneraInicio">
+		<button class="btn" id="iniciar" onclick="iniciarJuego();">Iniciar juego</button>
+		<button class="btn" id="agregar" onclick="agregarPalabra();">Agregar Palabras</button>
+	</div>
+	
+	<div class="caja" id="zonaJuego" style="display: none;">
+		
+		<div id="ahorcado">
+			
+		</div>
+		
+		<div class="input">
+			<input type="text" maxlength="1" id="letra">
+			<button class="btn" id="chequear">Intentar
+			</button>
+
+			<p id="output"></p>
+
+			<p id="erroresRest"></p>
+
+			<p id="errorLetras"></p>
+
+		</div>
+		
+
+	</div>
+	
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+	
+	
+	margin: auto;
+	text-align: center;
+	background-color: lightcoral;
+	font-family: "Consolas", monospace;
+
+}
+
+
+.caja {
+	margin: 10px;
+}
+.btn {
+	font-family: "Consolas", monospace;
+}
+
+#ahorcado {
+	
+	height: 405px;
+	width: 350px;
+	margin: auto;
+	background-image: url("ahorcado.jpg");
+}
+.input {
+	margin-top: 10px;
+}
