@@ -1,11 +1,8 @@
 body {
-	
-	
 	margin: auto;
 	text-align: center;
-	background-color: lightcoral;
-	font-family: "Consolas", monospace;
-
+	background-image: url("fondo.jpg");
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -13,7 +10,15 @@ body {
 	margin: 10px;
 }
 .btn {
-	font-family: "Consolas", monospace;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 5px;
+	font-size: 18px;
+	transition: all 0.2s linear;
+}
+
+.btn:hover {
+	font-size: 22px;
+	transition: all 0.2s linear;
 }
 
 #ahorcado {
