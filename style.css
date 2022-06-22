@@ -5,10 +5,10 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-
 .caja {
 	margin: 10px;
 }
+
 .btn {
 	font-family: 'Raleway', sans-serif;
 	border-radius: 5px;
@@ -28,6 +28,7 @@ body {
 	margin: auto;
 	background-image: url("ahorcado.jpg");
 }
+
 .input {
 	margin-top: 10px;
 }
